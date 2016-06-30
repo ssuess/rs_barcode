@@ -1,6 +1,6 @@
 <?php
 
-function HookRs_barcodeAllAdditionalheaderjs()
+function HookRs_barcodeEditAutolivejs()
     {
     global $baseurl,$barcode_display_fields,$barcode_type,$ref;
 
