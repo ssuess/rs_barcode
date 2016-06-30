@@ -1,0 +1,12 @@
+
+.bclabel {
+	clear: left;
+	padding-top: 10px;
+}
+.bcdivclass {
+	padding-top: 13px !important;
+	background-color: white;
+	margin-top: 10px;
+	padding-bottom: 5px !important;
+}
+
