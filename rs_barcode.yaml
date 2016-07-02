@@ -1,6 +1,6 @@
 name: rs_barcode
 author: Stephen Suess
-version: 1.0
+version: 1.1
 desc: Generate barcodes from field data and display underneath
 config_url: /plugins/rs_barcode/pages/setup.php
 category: Advanced
