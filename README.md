@@ -17,5 +17,6 @@ Download the whole diretory and rename to "rs_barcode". Then you can install it 
 
 
 ## Changelog
+* `v 1.1.1` - fixed field not loading if initially blank
 * `v 1.1` - dynamic loading, hide barcode div if empty and display error
 * `v 1.0` - Initial release

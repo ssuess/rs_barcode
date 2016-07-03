@@ -22,15 +22,14 @@ function HookRs_barcodeEditEditadditionaljs()
     			jQuery('#mybcdiv<?php echo $bcfield;?>').remove();
     			jQuery(".bclabel").text("(Not a valid <?php echo strtoupper($barcode_type); ?> value)");
     			}
-    			});<?php
-                if (get_data_by_field($ref, $bcfield)) { ?>
+    			});
                 jQuery("input#field_<?php echo $bcfield;?>").after(jQuery("<label for='mybcdiv<?php echo $bcfield;?>' class='bclabel'>(<?php echo strtoupper($barcode_type); ?>)</label>"));
                 jQuery('label[for="mybcdiv<?php echo $bcfield;?>"]').after(jQuery("<div id='mybcdiv<?php echo $bcfield;?>' class='bcdivclass'>").barcode("<?php echo get_data_by_field($ref, $bcfield);?>","<?php echo $barcode_type; ?>",{barWidth:3, barHeight:40,output:'css'}));
                 if(jQuery('#mybcdiv<?php echo $bcfield;?>').contents().length == 0 ) {
     			jQuery('#mybcdiv<?php echo $bcfield;?>').remove();
     			jQuery(".bclabel").text("(Not a valid <?php echo strtoupper($barcode_type); ?> value)");
     			}
-				<?php }}} ?>
+				<?php }} ?>
                 });
     
     
